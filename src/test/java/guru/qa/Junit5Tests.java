@@ -4,7 +4,7 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.*;
 
-public class SimpleTest {
+public class Junit5Tests {
 
     @BeforeAll
     static void initDB() {
@@ -33,7 +33,6 @@ public class SimpleTest {
     void assertTest1() {
         //test1
         System.out.println("###      Test1");
-
     }
 
     @Test
